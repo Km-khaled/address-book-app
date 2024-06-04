@@ -38,22 +38,7 @@ This project is a Java web application for managing address books. It provides t
 3. Click on an address book link to access the address management page for that book.
 4. On the address management page, you can add, remove, search, and list addresses for the selected address book.
 
-## Project Structure
-src/main/java/com/example/mid
-├── Adresse.java
-├── AdresseDaoImpl.java
-├── AdresseDao.java
-├── carnet.java
-├── carnetDao.java
-├── HelloServlet.java
-├── Personne.java
-└── SingletonConnection.java
-src/main/webapp
-├── carnet.jsp
-├── first.jsp
-├── index.jsp
-└── WEB-INF
-    └── web.xml
+## Project Components
 
 - `Adresse.java`: Class representing an address.
 - `AdresseDaoImpl.java`: Implementation of the `AdresseDao` interface for CRUD operations on addresses.
